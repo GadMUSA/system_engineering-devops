@@ -1,0 +1,3 @@
+#!/bin/bash
+set          # lists all shell variables, including local and environment variables
+declare -f   # lists all shell functions
