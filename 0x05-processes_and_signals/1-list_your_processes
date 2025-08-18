@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-# Display all currently running processes in user-oriented format
 ps -e -o user,start,cmd
