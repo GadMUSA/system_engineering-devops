@@ -1,3 +1,2 @@
 #!/bin/bash
-set
-declare -f
+set declare -f
