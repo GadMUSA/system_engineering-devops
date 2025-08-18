@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Infinite loop displaying "To infinity and beyond", reacts to SIGTERM without stopping
+
+# Function to handle SIGTERM
+term_handler() {
+    echo "I am invincible!!!"
+}
+
+# Trap SIGTERM and call term_handler
+trap term_handler SIGTERM
+
+# Infinite loop
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
